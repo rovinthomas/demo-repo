@@ -59,5 +59,3 @@ git chekcout -b new_branch_name: to create a new branch with name
 git diff new_branch_name: to view changes made since separation of this new branch
 
 git merge new_branch_name: to merge the new changes from new_branch_name back with main
-
-e
