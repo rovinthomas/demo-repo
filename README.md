@@ -55,3 +55,9 @@ git branch: to view all existing branches (with * on current branch im on)
 git checkout name_of_branch_to_switch_to: to switch between branches
 
 git chekcout -b new_branch_name: to create a new branch with name
+
+git diff new_branch_name: to view changes made since separation of this new branch
+
+git merge new_branch_name: to merge the new changes from new_branch_name back with main
+
+e
