@@ -8,7 +8,7 @@ watch tutorial on youtube.
 
 ## Local Development
 
-1. Open index.html in your browser.
+1. Open index.html in your browser. YAYAYYA
 
 clone
 add
@@ -54,4 +54,4 @@ git branch: to view all existing branches (with * on current branch im on)
 
 git checkout name_of_branch_to_switch_to: to switch between branches
 
-git chekcout -b new_branch_name: to create a new branch with name
+git checkcout -b new_branch_name: to create a new branch with name
