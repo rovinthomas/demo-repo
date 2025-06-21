@@ -1,7 +1,6 @@
-====================================================================
 *: specific steps for adding code via the github interface
 **: specific steps for adding code locally
-====================================================================
+
 ## GENERAL:
 
 *git clone SSH_link: to clone a repo from github to my local machine
@@ -79,8 +78,7 @@ git reset --hard commit_number: to both unstage and undo all code changes till a
 
 ====================================================================
 ## TO GENERATE AND ADD SSH KEY (FIRST TIME):
-ssh-keygen -t rsa -b 4096 -C "rovin.thomas@ou
-tlook.com" - for creating SSH key
+ssh-keygen -t rsa -b 4096 -C "email@outlook.com" - for creating SSH key
 
 ls ~/.ssh | grep id_rsa - to find my SSH key
 
