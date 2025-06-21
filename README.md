@@ -9,6 +9,7 @@ watch tutorial on youtube.
 ## Local Development
 
 1. Open index.html in your browser.
+2. Have fun
 
 clone
 add
@@ -64,7 +65,17 @@ git pull origin master (or git pull): to pull updates from github repo
 
 git commit -am "some title" - to add and commit together (only works for files that already been committed previously)
 
+git reset filename (or git reset) : to unstage the previous adding?
 
+git reset HEAD: to unstage till the last commit?
+
+git reset HEAD~1: to unstage till the last last commit??
+
+git log: to view logs of all previous commits
+
+git reset commit_number: to unstage till a specific commit from logs
+
+git reset --hard commit_number: to both unstage and undo all code changes till a specific commit from log
 
 ## UNIQUE CHANGES 
 
