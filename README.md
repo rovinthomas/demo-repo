@@ -9,6 +9,7 @@ watch tutorial on youtube.
 ## Local Development
 
 1. Open index.html in your browser.
+2. Have fun
 
 clone
 add
@@ -48,7 +49,7 @@ git remote add origin git@github.com:rovinthomas/demo-repo2.git: to connect loca
 
 git remote --v: to check the above step
 
-git push -u origin master: so that in future i just need to type git push without specifying origin and master every time
+git push -u origin master (or git push): so that in future i just need to type git push without specifying origin and master every time
 
 git branch: to view all existing branches (with * on current branch im on)
 
@@ -56,11 +57,25 @@ git checkout name_of_branch_to_switch_to: to switch between branches
 
 git chekcout -b new_branch_name: to create a new branch with name
 
-git diff new_branch_name: to view changes made since separation of this new branch
+git diff new_branch_name (or git diff): to view changes made since separation of this new branch
 
 git merge new_branch_name: to merge the new changes from new_branch_name back with main (not commonly used?)
 
-git pull origin master: to pull updates from github repo
+git pull origin master (or git pull): to pull updates from github repo
+
+git commit -am "some title" - to add and commit together (only works for files that already been committed previously)
+
+git reset filename (or git reset) : to unstage the previous adding?
+
+git reset HEAD: to unstage till the last commit?
+
+git reset HEAD~1: to unstage till the last last commit??
+
+git log: to view logs of all previous commits
+
+git reset commit_number: to unstage till a specific commit from logs
+
+git reset --hard commit_number: to both unstage and undo all code changes till a specific commit from log
 
 ## UNIQUE CHANGES 
 
